@@ -1,0 +1,8 @@
+site_name: "test-spring-service"
+site_description: "hackweek-spring"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

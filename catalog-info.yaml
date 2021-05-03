@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-spring-service"
+  description: "hackweek-spring"
+  annotations:
+    github.com/project-slug: mikevanwinklesonos/testspring2
+    backstage.io/techdocs-ref: url:https://github.com/mikevanwinklesonos/testspring2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "mikevanwinklesonos"
