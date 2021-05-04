@@ -9,4 +9,19 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: "mikevanwinklesonos"
+  owner: "cloud-traffic"
+  owner: cloud-traffic
+  system: platform
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /artists:
+        get:
+          summary: List all artists
