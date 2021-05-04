@@ -1,16 +1,15 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: "test-spring-service"
-  description: "hackweek-spring"
+  description: "hackweek-spring just testing"
   annotations:
     github.com/project-slug: mikevanwinklesonos/testspring2
     backstage.io/techdocs-ref: url:https://github.com/mikevanwinklesonos/testspring2
 spec:
-  type: service
+  type: openapi
   lifecycle: experimental
   owner: "cloud-traffic"
-  owner: cloud-traffic
   system: platform
   definition: |
     openapi: "3.0.0"
